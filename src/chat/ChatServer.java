@@ -127,7 +127,7 @@ public class ChatServer extends JFrame implements Runnable {
 
         super("Chat Server");
         try {
-            privateKey = Encryption.readPrivateKey("group_chat_messenger//keypairs/pkcs8_key");
+            privateKey = Encryption.readPrivateKey("keypairs/pkcs8_key");
         } catch (Exception e) {
             e.printStackTrace();
             System.err.println("problem loading private key: " + e.getMessage());
