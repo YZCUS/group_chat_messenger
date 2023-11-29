@@ -7,7 +7,7 @@ This real-time chat application implements group chat feature leveraging the pow
 
 ## Getting Started
 ### Enviromnent:
-- JAVA: JDK 8
+- Java version: JDK 8
 
 ### Installing
 - Clone this repository and navigate to directory
