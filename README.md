@@ -24,6 +24,8 @@ javac -cp src src/chat/ChatClient.java
 ```
 
 ### Executing program
+Open new terminals to execute Server and Clients following the instructions:
+  
 - Run Server
 ```bash
 cd group_chat_messenger
