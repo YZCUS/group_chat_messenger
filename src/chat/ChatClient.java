@@ -1,17 +1,15 @@
 package chat;
 
-import java.awt.*;
-import java.io.*;
-import java.net.Socket;
-import java.security.*;
-import java.security.spec.X509EncodedKeySpec;
-import javax.crypto.*;
-import java.util.Arrays;
-import java.util.Base64;
-import javax.crypto.spec.SecretKeySpec;
-import javax.swing.*;
-
 import encryption.Encryption;
+
+import javax.swing.*;
+import java.awt.*;
+import java.io.DataInputStream;
+import java.io.DataOutputStream;
+import java.net.Socket;
+import java.security.Key;
+import java.security.PublicKey;
+import java.util.Base64;
 
 
 public class ChatClient extends JFrame {
