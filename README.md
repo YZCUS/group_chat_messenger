@@ -37,4 +37,5 @@ java -cp src chat.ChatServer
 cd group_chat_messenger
 java -cp src chat.ChatClient
 ```
-
+### Acknowledgments
+This is a project from CS-GY 9053 Java coourse. Some codes were written by Prof. Constantine (Dean) Christakos.
